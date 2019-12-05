@@ -1,5 +1,5 @@
 # https://github.com/bluedreamer/cpp_project_skel
-MF_VER=0.1
+MF_VER=0.2
 BINARY=example
 CC=gcc
 CXX=g++
@@ -27,4 +27,4 @@ git_clean:
 %.d: %.cpp
 	${CXX} -MM $< -MF $@ ${CXXFLAGS}
 
-# vim: ts=3 sw=3 ai et hls mps=(\:),{\:},[\:],<\:> ff=unix ffs=unix bg=dark
+# vim: ts=3 sw=3 ai et nohls mps=(\:),{\:},[\:],<\:> ff=unix ffs=unix bg=dark
